@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "maheesh1/swiggy-eks:latest"
+        image: "maheesh1/swiggy-node:latest"
         ports:
           - containerPort: 3000
 ---
